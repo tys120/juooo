@@ -1,0 +1,16 @@
+.TabbarTop{
+    font-size:0.16rem;
+    height:0.3rem;
+    line-height:0.3rem;
+    padding:0.1rem;
+    display: flex;
+    width:3.55rem;
+    justify-content: space-between;
+    position: fixed;
+    left:0;
+    top:0;
+    background:#fff;
+    img{
+        width:0.3rem;
+    }
+}
