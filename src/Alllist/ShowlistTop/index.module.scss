@@ -1,0 +1,27 @@
+.active{
+   background: rgb(0, 183, 255);
+}
+.ShowlistTop{
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    a{
+        list-style: none;
+        text-decoration: none;
+        color: #000;
+    }
+    
+    ul{  display: flex;
+       width: 100%;
+        background: white;
+        
+        li{
+          flex: 1;
+            width: 1.28rem;
+            height:0.7rem;
+            line-height: 0.7rem;
+            margin-left: 0.1rem;
+          margin-right:0.01rem;
+        }
+    }
+}

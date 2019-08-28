@@ -1,0 +1,65 @@
+.top{
+    position: relative;
+    left:0;
+    top:0;
+    height:2.3rem;
+    overflow: hidden;
+    padding:0 0.1rem;
+    .ing{
+        height:100%;
+        width:100%;
+        position: absolute;
+        left:0;
+        top:0;
+        z-index:-1;
+        filter: blur(0.2rem);
+    }
+    .tabbar{
+        display: fixed;
+        left:0;
+        top:0;
+        height:0.3rem;
+        line-height:0.3rem;
+        padding: 0.1rem 0;
+        display:flex;
+        justify-content: space-between;
+        color:#fff;
+        a{
+            color:#fff;
+        }
+        span:nth-of-type(2){
+            font-weight:bold;
+        }
+    }
+    .trduction{
+        height:1.65rem;
+        img{
+            height:1.5rem;
+            width:1.01rem;
+            position: absolute;
+            left:0.1rem;
+            top:0.5rem;
+            z-index:10;
+        }
+    }
+    .nm{
+        width:2.2rem;
+        height:1.44rem;
+        float:right;
+        color:#fff;
+        font-size:0.2rem;
+        font-weight: bold;
+        div:first-of-type{
+            height:0.66rem;
+        }
+        div:nth-of-type(2){
+            height:0.2rem;
+            line-height:0.2rem;
+            width:0.55rem;
+            margin-top:0.1rem;
+            text-align:center;
+            font-size:0.12rem;
+        }
+        
+    }
+}

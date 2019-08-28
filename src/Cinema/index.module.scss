@@ -1,0 +1,95 @@
+.Tabbar{
+    font-size:0.24rem;
+    height:0.5rem;
+    line-height:0.5rem;
+  text-align: center;
+    
+    background:#fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.all{
+width: 100%;
+li{
+   list-style: none;
+  
+   
+}
+
+}
+.pic{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 0.05rem;
+    margin-right: 0.08rem;
+}
+.list{
+    width: 3.1rem;
+    height: 2.59rem;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 0.2rem 0.175rem 0.2rem;
+    margin-top: 0.1rem
+}
+.tator{
+    display: flex;
+    justify-content: space-between;
+    .tatorone{
+        display: flex;
+    }
+}
+.bor{ 
+    
+    overflow-x:auto;
+    white-space:nowrap;
+    
+    ul{
+        width:100%;
+       
+        display: flex;
+    }
+    .lists{
+        
+      
+        
+        width: 1.14rem;
+        
+       
+        
+        p{
+            width: 1.14rem;
+            text-align: center;
+            height: 0.3rem;
+            line-height: 0.3rem;
+            color: #b3b3b3;
+            border-bottom: 1px solid #ccc;
+            position: relative;
+            span{
+                width: 0.08rem;
+                height: 0.08rem;
+                background: #ccc;
+                border-radius: 50%;
+                left: 50%;
+                bottom: -0.04rem;
+                position: absolute;
+            }
+        }
+        img{
+           width: 1.07rem;
+           margin-right: 0.05rem;
+           margin-top: 0.15rem
+        }
+    }
+}
+.more{
+    width: 1.07rem;
+    height: 1.43rem;
+    background: #f5f5f5;
+    margin-right: 0.05rem;
+     margin-top: 0.15rem;
+     text-align: center;
+     line-height: 1.43rem;
+     color: #666;
+     font-size: 0.16rem;
+}
+

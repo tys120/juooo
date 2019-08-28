@@ -12,6 +12,7 @@ ul{
 }
 a{
   text-decoration: none;
+<<<<<<< HEAD
   display:inline-block;
 }
 /* .all::after{
@@ -20,3 +21,6 @@ a{
   position: absolute;
   bottom:1rem;
 } */
+=======
+}
+>>>>>>> 6031720b5705c33d2378ea75dfcf283ee9d6863e

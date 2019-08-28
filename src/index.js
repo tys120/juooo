@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+=======
+// import React from 'react';
+>>>>>>> 6031720b5705c33d2378ea75dfcf283ee9d6863e
 import ReactDOM from 'react-dom';
+import 'antd-mobile/dist/antd-mobile.css'
 import './index.css';
 // import App from './App';
 import Router from "./Router"

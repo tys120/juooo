@@ -1,0 +1,26 @@
+.emp{
+    height:6.16rem;
+    background:#fff;
+    .cent{
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        div{
+            width:1.2rem;
+            height:0.2rem;
+            line-height:0.2rem;
+            text-align:center;
+        }
+        span{
+            display: inline-block;
+            height:1.2rem;
+            line-height:1.2rem;
+            text-align:center;
+            width:1.2rem;
+            font-size:1rem;
+        }
+    }
+    
+    
+}
