@@ -22,7 +22,7 @@ class TabbarTop extends React.Component{
         return <div className={css.TabbarTop}>
             <Position></Position>
             <Search></Search>
-            <img src={this.state.url}/>
+            <img src={this.state.url}  alt="pic"/>
         </div>
     }
 }

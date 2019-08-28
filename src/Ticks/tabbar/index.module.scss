@@ -1,0 +1,47 @@
+.tab{
+    height:0.5rem;
+    display:flex;
+    justify-content: space-between;
+    background: #fff;
+    span{
+        display:inline-block;
+        height:0.5rem;
+        line-height:0.5rem;
+        width:0.5rem;
+        text-align:center;
+        font-size:0.2rem;
+    }
+    span:last-of-type{
+        font-weight:bold;
+    }
+    .elli{
+        // background:#ccc;
+        width:1.5rem;
+        height:0.8rem;
+        position: absolute;
+        right:0;
+        top:0.5rem;
+        border:0.01rem solid #ccc;
+        a{
+            display: block;
+            width:100%;
+            border-bottom:0.01rem solid #ccc;
+            height:0.4rem;
+            line-height:0.4rem;
+            text-align:center;
+            color:#555;
+        }
+    }
+    .elli::before{
+        content: "";
+        width:0.25rem;
+        height:0.25rem;
+        // background:#f60;
+        position: absolute;
+        left:85%;
+        top:0;
+        border-left:0.01rem solid #ccc;
+        border-top:0.01rem solid #ccc;
+        transform: translate(-50%,-50%) rotate(45deg)
+    }
+}
