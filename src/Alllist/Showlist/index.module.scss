@@ -1,0 +1,46 @@
+.all{
+  height: 100%;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+  margin-bottom: 0.5rem;
+  .lists{
+    width: 100%;
+    height: 1.2rem;
+    padding-top:0.1rem;
+    padding-bottom: 0.1rem;
+    border-bottom:1px solid #ccc;
+  }
+  dt{
+    width: 0.89rem;
+    height: 1.19rem;
+    float: left;
+   
+   
+  }
+  dd{ 
+    width: 2.4rem;
+    padding-left: 0.1rem;
+    float: right;
+    .lists1{
+      font-size: 0.14rem;
+      margin-bottom: 0.1rem;
+    }
+    .lists2{
+      font-size: 0.12rem;
+      color: #999999;
+    }
+    .lists3{
+      font-size: 0.12rem;
+      color: #999999;
+    }
+    .lists4{
+      font-size: 0.16rem;
+      color: #f60;
+      margin-top: 0.1rem;
+    }
+  }
+  img{
+    width: 100%;
+    
+  }
+}

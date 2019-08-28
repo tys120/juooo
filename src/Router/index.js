@@ -8,7 +8,12 @@ import Myself from "../Myself"
 import detail from "../Detail"
 import login from "../Login"
 import register from "../Register"
-
+import alllist from "../Alllist"
+// import Concert from '../Alllist/Concert'
+import showlisttop from '../Alllist/ShowlistTop'
+import showlist from '../Showlist'
+// import music from '../Music'
+// import Concert from '../Concert'
 var Auth={
     isLogin(){
         return true
@@ -29,7 +34,15 @@ const router =<Router>
             <Route path="/detail/:id" component={detail}></Route>
             <Route path="/login" component={login}></Route>
             <Route path="/register" component={register}></Route>
-            <Redirect from="/" to="/home"/>
+            {/* <Route path="/alllist/Concert" component={Concert}/> */}
+            
+            <Route path="/showlisttop" component={showlisttop}/>
+            <Route path="/alllist/:id" component={alllist}></Route>
+            {/* <Route path="/concert/:id" component={music}></Route>
+            <Route path="/music/:id" component={music}></Route> */}
+            <Route path="/showlist/:id" component={showlist}></Route>
+            
+            {/* <Redirect from="/" to="/home"/> */}
         </Switch>
     </App>
 </Router>
