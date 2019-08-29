@@ -28,7 +28,7 @@ class Dance extends React.Component{
             { 
                 this.state.showList==null?
               
-                <div className={css.nothing}>别看电影了这里没东西我们去听kerwin的讲课吧<a href="http://dl.mobiletrain.org/?pinpaisogoutg=mopinpaiquanguo=pinpaipc=sogoumo=1808173665*pinpai-sg5-qg-pc-pp013249*&jzl_kwd=29025188465&jzl_ctv=5944399936&jzl_ch=12">点这里你就快要成功了</a></div>
+                <div className={css.nothing}><p>别看电影了这里没东西我们去听kerwin的讲课吧</p><a href="http://dl.mobiletrain.org/?pinpaisogoutg=mopinpaiquanguo=pinpaipc=sogoumo=1808173665*pinpai-sg5-qg-pc-pp013249*&jzl_kwd=29025188465&jzl_ctv=5944399936&jzl_ch=12">点这里你就快要成功了</a></div>
                 
                 : 
                 this.state.showList.map(list=>
