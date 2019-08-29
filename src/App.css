@@ -4,6 +4,7 @@
 }
 
 html,body{
+  height: 100%;
   font-size:0.16rem;
 }
 
@@ -12,11 +13,4 @@ ul{
 }
 a{
   text-decoration: none;
-  display:inline-block;
 }
-/* .all::after{
-  content:"";
-  display:block;
-  position: absolute;
-  bottom:1rem;
-} */

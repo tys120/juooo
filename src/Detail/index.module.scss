@@ -99,10 +99,9 @@
             border:0;
             .te{
                 margin-right:0.05rem;
-                color:#fff;
+                color:#fff;   
             }
         }
-        
         }
         div{
             
@@ -116,6 +115,8 @@
             }
             ul{
                 display:inline-block;
+                display:flex;
+                justify-content: space-around;
             }
         }
     }
@@ -220,6 +221,7 @@
                 height:1.83rem;
                 img{
                     height:1.5rem;
+                    width:1.1289rem;
                     margin:0.15rem 0;
                     float:left;
                     margin-right:0.1rem;

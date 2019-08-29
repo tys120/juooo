@@ -52,7 +52,7 @@ class Drama extends React.Component{
     }
     handClick(id){
       
-        this.props.history.push(`/Detail/${id}`)
+        this.props.history.push(`/detail/${id}`)
       
     }
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import css from '../index.module.scss'
 // import Axios from 'axios';
 import Drawer from './drawer'
+import  {withRouter} from 'react-router'
 import Drawerrecommone from './drawerRecommond'
 
 class Contant extends React.Component{
@@ -35,6 +36,10 @@ class Contant extends React.Component{
         this.setState({
             apha:false
         })
+    }
+    jump(id){
+        console.log(id)
+        this.props.history.push(`/detail/${id}`)
     }
 
     render(){ 
@@ -118,7 +123,7 @@ class Contant extends React.Component{
                 <ul>
                     {
                         this.props.need.data.list.map(item=>
-                            <li key={item.name}>
+                            <li key={item.name} onClick={()=>this.jump(item.schedular_id)}>
                                 <img src={item.pic}/>
                                 <span>{item.show_time_top}</span>
                                 <span>{item.show_time_bottom}</span>
@@ -141,4 +146,4 @@ class Contant extends React.Component{
         </div>
     }
 }
-export default Contant
+export default withRouter(Contant)
