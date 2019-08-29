@@ -77,15 +77,11 @@ render() {
                                 <p>{items.show_time}<span></span></p>
                                     <img src={items.pic} alt="加载失败"/>
                                 </li>)
-
                         }
-                        
                     </ul>
                 </div>                                            
             </li>
-                )
-                    
-                    
+                )    
             }
         </div>
         
@@ -93,13 +89,7 @@ render() {
         
     }
     handClick(id){
-       
-      
         this.props.history.push(`/showlist/${id}`)
-      
-        
-        
-    }
-    
+    } 
 }
 export default Cinema

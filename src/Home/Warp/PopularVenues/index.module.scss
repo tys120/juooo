@@ -1,0 +1,97 @@
+.all{
+    h3{
+        padding:0.2rem 0;
+    }
+    .all_ul{
+        width:100%;
+        display:flex;
+        overflow: hidden;
+        overflow-x: scroll;
+        &>li{
+            border:1px solid #ccc;
+            width:2.39rem;
+            height:2.4rem;
+            flex:1;
+            margin-right:0.2rem;
+            padding:0.18866rem 0.154586rem;
+            .top{
+                  img{
+                      float: left;
+                      width:0.4545rem;
+                      height:0.4545rem;
+                    }
+                      div{
+                          float: left;
+                          margin-left:0.09rem;
+                        //   display: inline;
+                          a{
+                            width:1.2rem;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            font-size: 0.16rem;
+                            margin-top:2px;
+                            color:#232323;
+                      
+                      p{   
+                         
+                          font-size:0.14rem;
+                          color:#666;
+                      }
+                     }                    
+                }
+                a{
+                    float: right;
+                }
+            }
+            .month{
+                width:100%;
+                display:flex;
+                padding-top:0.05rem;
+            
+                p{
+                    height:0.31rem;
+                    flex:1;
+                    text-align: center;
+                    position: relative;
+                    border-bottom:2px solid #ccc;
+                    &::after{
+                        content:"";
+                        display:block;
+                        position: absolute;
+                        bottom:-0.02rem;
+                        left:50%;
+                        transform: translate(-50%);
+                        width:0.04rem;
+                        height:0.04rem;
+                        border-radius:50%;
+                        background:#ccc;
+                    }
+
+                span{    
+                    width:100%;             
+                    color:#b3b3b3;
+                    font-size:0.15rem;                    
+                    }
+                }
+            }
+            .bottom{
+                margin-top:0.16rem;
+                width:100%;
+                width:2.06rem;
+                  height:1.3475rem; 
+                  display:flex;
+                  justify-content: space-between;
+                    li{
+                        flex:1;
+                        float:left;                                           
+                            img{
+                                
+                                width:0.973rem;
+                                height:1.3275rem
+                        }                                               
+                }              
+            }
+        }
+    }
+}

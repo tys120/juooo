@@ -1,0 +1,103 @@
+.all{
+        background:#f5f5f5;
+        height:3.275rem;
+        padding:0.2rem 0.15rem 0;
+        margin-bottom:0.3rem;
+    .container{
+        display:flex;
+        justify-content: space-between;
+        margin-bottom:0.3rem;   
+        li{
+            a{
+                height:0.755rem;
+                display: inline-block;
+               img{
+                height:0.51rem;
+                width:0.51rem;
+               }
+               p{  text-align: center;
+                   margin-top:0.075rem;
+                   font-size:0.13rem;
+                   color:#232323; 
+               }
+           } 
+        }
+    }
+    .middleContainer{
+        display:flex;
+        justify-content: space-between;
+        li{ 
+            box-shadow: 0 0.05333rem 0.4rem 0.02667rem rgba(35,35,35,.08);
+            box-sizing:border-box;
+            width:1.695rem; 
+            height:.9rem;
+            padding:0 0.175rem; 
+                 &::before{
+                    content:"";
+                    display:block;
+                    height:.2rem;
+                    // width:100%; 
+                }
+            a{   
+                
+                color:#232323;  
+                 
+            h3{
+                display:inline-block;
+                font-size:.15rem;
+                // margin-top:0.22rem;
+             
+            }
+            p{
+                display:inline-block;
+                color:#666;
+                font-size:0.12rem;
+                 width:.923rem;
+                i{
+                color:#ff6743;
+                }
+            }
+            img{
+                float:right;
+                width:0.422rem;
+                height:0.45rem;
+              
+                }
+            }
+        }
+    }
+    .bottomContainer{
+        display: flex;
+        text-align: center;
+        margin-top:0.07rem;
+        li{
+            flex:1;
+            box-shadow: 0 0.05333rem 0.4rem 0.02667rem rgba(35,35,35,.08);
+            height:1.06rem;
+            // width:1.11rem;
+        }
+        a{
+               color:#232323;  
+        }
+        h3{
+            font-size:.15rem;
+        }
+        p{
+            color:#666;
+            font-size:0.12rem;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            padding:0.1rem;
+        }
+        img{
+            display:inline-block;
+            width:0.45rem;
+            height:0.45rem;
+        }
+    }
+        .componentContainer{
+
+        }
+
+}

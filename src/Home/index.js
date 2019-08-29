@@ -1,8 +1,9 @@
 import React from 'react'
 import TabbarTop from "../Components/TabbarTop"
-import css from './index.module.scss'
-import axios from 'axios';
+// import css from './index.module.scss'
+// import axios from 'axios';
 
+<<<<<<< HEAD
 class Home extends React.Component {
     state = {
             isFixed: false,
@@ -26,6 +27,19 @@ class Home extends React.Component {
                             )
                         } */
         } </div>
+=======
+class Home extends React.Component{
+    state={
+        isFixed:false,
+        datalist:[],
+    }
+   
+    render(){
+        return <div>
+            <TabbarTop></TabbarTop>
+            Home
+        </div>
+>>>>>>> 12bf4ec477a9f8d157ffd68bec7d9168fec55ddd
     }
 }
 export default Home

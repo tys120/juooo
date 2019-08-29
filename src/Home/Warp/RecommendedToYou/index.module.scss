@@ -1,0 +1,51 @@
+.all{
+padding-bottom:0.1rem;
+   h3{
+       padding:0.2rem 0;
+   }
+   ul{
+       li{      
+           margin-bottom:0.325rem;       
+           img{
+            //    float: left;
+               height:1.5rem;
+               width:1.1rem;
+           }
+           .right{
+               float: right;
+             padding-right:0.2rem;
+                strong{
+                    padding-top:0.05rem;
+                    font-size:0.13rem;
+                    color:#232323;
+                }
+                h3{
+                    padding:0;
+                    width:2rem;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical; 
+                    color:#666;
+                    font-size:0.16rem;
+                    margin-top:0.125rem;
+                }
+                .text{
+                    font-size:0.1rem;
+                    color:#232323
+                }
+                .price{
+                    margin-top:0.1rem;
+                    i{
+                        color:#ff6743;
+                        font-size:0.12rem;
+                    }
+                    span{
+
+                    }
+                }
+           }
+       }
+   }
+}

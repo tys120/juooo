@@ -42,7 +42,7 @@ const router =<Router>
             <Route path="/music/:id" component={music}></Route> */}
             <Route path="/showlist/:id" component={showlist}></Route>
             
-            {/* <Redirect from="/" to="/home"/> */}
+            <Redirect from="/" to="/home"/>
         </Switch>
     </App>
 </Router>

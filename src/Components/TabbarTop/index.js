@@ -18,12 +18,12 @@ class TabbarTop extends React.Component {
         })
     }
 
-    render() {
-        return <div className = { css.TabbarTop } >
-            <Position> </Position> 
-            <Search > </Search> 
-            <img src = { this.state.url }
-        /> </div>
+    render(){
+        return <div className={css.TabbarTop}>
+            <Position></Position>
+            <Search></Search>
+            <img src={this.state.url}  alt="pic"/>
+        </div>
     }
 }
 
