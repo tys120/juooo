@@ -18,16 +18,14 @@ class Home extends React.Component {
         // }
     render() {
         return <div >
-            <
-            TabbarTop > < /TabbarTop>
+            <TabbarTop > </TabbarTop>
         Home {
             /* {
                             this.state.datalist.map((item)=>
                                 <li key={item.sche_id}>{item.show_name}</li>
                             )
                         } */
-        } <
-        /div>
+        } </div>
     }
 }
 export default Home
