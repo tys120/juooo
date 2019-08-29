@@ -57,6 +57,7 @@ class Child extends Component {
                             autoplay
                             infinite
                             cellSpacing={10}
+                            dots={false}
                         // beforeChange={(from, to) => console.log(111)}
                         // afterChange={index => this.setState({ slideIndex: index })}
                         >

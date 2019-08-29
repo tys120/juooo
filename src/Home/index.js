@@ -1,45 +1,29 @@
 import React from 'react'
 import TabbarTop from "../Components/TabbarTop"
-// import css from './index.module.scss'
-// import axios from 'axios';
-
-<<<<<<< HEAD
+import Warp from "./Warp"
+import Swiper from "./Swiper"
+import css from './index.module.scss'
+import axios from 'axios';
 class Home extends React.Component {
     state = {
-            isFixed: false,
-            datalist: []
-        }
-        // componentDidMount(){
-        //     axios.get("https://api.juooo.com/home/index/getRecommendShow?cityAdd=&page=1&version=6.0.4&referer=2").then(res=>{
-        //         console.log(res.data.data)
-        //         this.setState({
-        //             datalist:res.data.data.recommend_show_list
-        //         })
-        //     })
-        // }
-    render() {
-        return <div >
-            <TabbarTop > </TabbarTop>
-        Home {
-            /* {
-                            this.state.datalist.map((item)=>
-                                <li key={item.sche_id}>{item.show_name}</li>
-                            )
-                        } */
-        } </div>
-=======
-class Home extends React.Component{
-    state={
-        isFixed:false,
-        datalist:[],
+        isFixed: false,
+        datalist: null
     }
-   
-    render(){
-        return <div>
-            <TabbarTop></TabbarTop>
-            Home
+
+    render() {
+        return <div className={css.all}>
+            <TabbarTop ></TabbarTop>
+            {this.state.datalist ? <Swiper mystate={this.state.datalist}></Swiper> : null}
+            {this.state.datalist ? <Warp mystate={this.state.datalist}></Warp> : null}
         </div>
->>>>>>> 12bf4ec477a9f8d157ffd68bec7d9168fec55ddd
+    }
+    componentDidMount() {
+        axios.get("https://api.juooo.com/home/index/getClassifyHome?city_id=0&abbreviation=&version=6.0.4&referer=2").then(res => {
+            this.setState({
+                datalist: res.data.data
+            })
+            // console.log(res.data.data.slide_list)
+        })
     }
 }
 export default Home

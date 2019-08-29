@@ -289,7 +289,7 @@
         }
     }
     .drawer{
-        height:4.59rem;
+        height:0;
         background:#fff;
         width:100%;
         position: absolute;
@@ -354,11 +354,9 @@
     .disp{
         bottom:0;
         z-index:10;
+        height:4.59rem;
     }
     
-}
-body{
-    overflow: hidden;
 }
 .cavan{
     width:100%;

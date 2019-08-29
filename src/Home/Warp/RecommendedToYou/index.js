@@ -2,12 +2,18 @@ import React, { Component } from "react"
 import css from "./index.module.scss"
 import Axios from "axios";
 import { PullToRefresh } from 'antd-mobile';
+import { withRouter } from "react-router"
 class RecommendedToYou extends Component {
 
     state = {
         count: 1,
         morelist: [],
+
         // height: 1000
+    }
+    handleclick(id) {
+        this.props.history.push(`/detail/${id}`)
+        console.log(id)
     }
     render() {
         return <div className={css.all}>
@@ -48,7 +54,7 @@ class RecommendedToYou extends Component {
                 <ul>
                     {this.state.morelist.length ?
                         this.state.morelist.map(item => (
-                            <li key={item.sche_id}>
+                            <li key={item.sche_id} onClick={() => this.handleclick(item.sche_id)}>
                                 <div>
                                     <img src={item.schePic} />
                                     <div className={css.right}>
@@ -81,4 +87,4 @@ class RecommendedToYou extends Component {
     }
 
 }
-export default RecommendedToYou 
+export default withRouter(RecommendedToYou) 

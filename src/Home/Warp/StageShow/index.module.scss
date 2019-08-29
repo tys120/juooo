@@ -1,12 +1,14 @@
+
 .all{
    box-sizing: border-box;
     h3{
-        padding-bottom:0.2rem;
+        padding:0.2rem;
     }
     div{
     color:#fefefe;
     background: rgb(91, 94, 94);
-        img{
+    height:2rem;
+    img{
         float: left;
         width:1.07rem;
         height:1.46rem;
@@ -16,7 +18,6 @@
     }
     div{     
         float: right;
-        padding-top:.16rem;
         margin-left:0.15rem;
         p{
         
@@ -47,6 +48,7 @@
             .swiper{
                 background: #fff;
                 ul{
+                    width:100%;
                     padding-top:0.15rem;
                     display:flex;
                     overflow: hidden;

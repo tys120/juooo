@@ -9,7 +9,10 @@
     position: fixed;
     left:0;
     top:0;
-    background:#fff;
+    z-index:1;
+    input{
+        border:0;
+    }
     img{
         width:0.3rem;
     }
